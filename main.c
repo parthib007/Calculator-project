@@ -121,6 +121,9 @@ int main()
             break;
             case 7:
             {
+                if(b!=0){
+                    printf("Can't use single-variable calculations. Use 0 for 2nd number.\nTry again\n");
+                    goto start1;}
                 printf("Number    Function\n");
                 printf("1         square\n");
                 printf("2         square root\n");
